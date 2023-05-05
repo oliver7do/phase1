@@ -1,0 +1,43 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+header {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+}
+    .section3 {
+        background-color: rgb(165, 163, 42);
+        height: 100px;
+    }
+    .section4 {
+        background-color: rgb(151, 42, 165);
+        height: 40px;
+    }
+    .section5 {
+        background-color: rgb(54, 131, 4);
+        height: 30px;
+    }
+    .section6 {
+        background-color: rgb(91, 163, 245);
+        height: 90px;
+    }
+    .section7 {
+        background-color: rgb(244, 164, 252);
+        height: 50px;
+    }
+footer {
+    background-color: rgb(153, 165, 42);
+    height: 70px;
+}
+  .vert {
+            background-color: rgb(208, 255, 0);
+            height: 100px;
+        }
+        #rose {
+                background-color: rgb(215, 12, 241);
+                height: 100px;
+            }
