@@ -5,33 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="Css/formulaire.css">
   </head>
   <body>
     <header></header>
+    <ul>
+      <li>
+        <a href="./balise.html" target="_blank"> HTML/CSS</a></li>
+        <li><form action="index.html" method="">bola bola</form></li>
+      
+    </ul>
     <main>
       <section>
-        <form>
-          <label for="pseudonyme">Pseudonyme:</label><br />
+        <form action="index.html" method="get">
+          <div class="nome">
+            <div class="psd">
+          <label for="pseudonyme"><spa style="color: blue;">Pseudonyme</spa></label><br />
+        </div>
           <input
             type="text"
             placeholder="exemple"
             id="pseudonyme"
-            name="pseudonyme"
+            name="pseu donyme"
           /><br />
+        </div>
 
-          <section>
-            <label for="password">Mot passe:</label><br />
-            <label for="password">Mot passe:</label><br />
+        <div class="passe">
+          <div class="pas">
+            <label for="password"><span style="color: blue;">Mot passe<span style="color: crimson;" title="le mont passe peut">*</span></label><br />
+            </div>
             <input
               type="password"
-              placeholder="Mot de passe"
+              placeholder="mot de passe"
               id="password"
               name="password"
             /><br />
-          </section>
+          </div>
 
-          <label for="email">Email:</label><br />
-          <input type="email" placeholder="Email" id="email" name="email" />
+          <div class="email">
+            <div class="ema">
+          <label for="email"><spa style="color: blue;">Email</spa></label><br />
+          </div>
+          <input type="email" placeholder="email" id="email" name="email" /><br />
+        </div>
+
+      <div class="foto">
+        <div class="ph">
+          <label for="Photo"><spa style="color: blue;">Photo</spa></label>
+        </div>
+          <div class="file">
+            <input type="file" value="Choisir un fichier">
+          </div>
+         
+        </div>
+                                     <!-- BOXXXXXXXXXX -->
+        <div class="box">
+         
+            <fieldset>
+              <legend><b>Choix multiples</b></legend>
+
+              <div>
+                <p class="dest"> <spa style="color: blue;"> Quelle destination </br> choisissez-vous?</spa></p></div>
+                <div class="Quelle"> 
+                <input type="checkbox" id="ukraine" name="country" value="ukraine" required>
+                <label for="ukraine">Ukraine</label>
+                <input type="checkbox" id="angola" name="country" value="angola" required>
+                <label for="angola">Angola</label>
+                <input type="checkbox" id="france" name="country" value="france" required>
+                <label for="france">France</label>
+                </div>
+       
+              <div>
+                <p class="Q"> <spa style="color: blue;"> Qui seront vos </br> accompagnateurs?</p></spa></div>
+                <div class="Qui"> 
+                <input type="radio" id="en famille" name="en famille" value="en famille" required>
+                <label for="en famille">En famille</label>
+                <input type="radio" id="entre amis" name="en famille" value="entre amis" required>
+                <label for="entre amis">Entre amis</label>
+                <input type="radio" id="solo" name="en famille" value="solo" required>
+                <label for="solo">Solo</label>
+              </div>
+
+        </fieldset>
+      
+       </div>
+
+        <div>
+          <div class="co"><spa style="color: blue;">Commentaires</spa> </div>
+          
+          <div class="sms">
+            <textarea class="field" placeholder="Écrire n'importe quoi ici"></textarea>
+          </div>
+          </div>
+          <div class="container">
+            <input type="submit" name="inscription" value="Envoyer">
+            <input type="reset" name="annuler" value="Annuler">
+          </div>
+          </div>
+        </div>
         </form>
       </section>
     </main>
